@@ -193,3 +193,17 @@ h4 {
     width: 95%;
   }
 }
+
+th {
+  width: 1000px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+td {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+table {
+  text-align: left;
+  width: 400px;
+}
