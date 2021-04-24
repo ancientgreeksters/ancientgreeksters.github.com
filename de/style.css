@@ -182,3 +182,15 @@ h4 {
     text-align: left;
     width: 100%;
 }
+
+.zentrierung {
+  width: 1000px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+@media screen and (max-width: 20000px) {
+  .zentrierung {
+    width: 75%;
+  }
+}
