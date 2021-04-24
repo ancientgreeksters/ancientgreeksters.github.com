@@ -193,3 +193,7 @@ h4 {
     width: 95%;
   }
 }
+
+body {
+  background-image: url('hintergrund.jpg');
+}
