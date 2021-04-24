@@ -194,6 +194,7 @@ h4 {
   }
 }
 
+<<<<<<< HEAD
 th {
   width: 1000px;
   font-family: 'Nunito Sans', sans-serif;
@@ -206,4 +207,8 @@ td {
 table {
   text-align: left;
   width: 400px;
+=======
+body {
+  background-image: url('hintergrund.jpg');
+>>>>>>> 140f0fb89e53baaa8d61c4714d31f919a835d873
 }
