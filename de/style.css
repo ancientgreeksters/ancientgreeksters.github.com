@@ -128,6 +128,7 @@
 
   h1 {
     font-family: 'Nunito Sans', sans-serif;
+
   }
   p {
     font-family: 'Nunito Sans', sans-serif;
@@ -138,6 +139,7 @@
   }
   h3 {
     font-family: 'Nunito Sans', sans-serif;
+    font-weight: normal;
   }
 
   .language {
