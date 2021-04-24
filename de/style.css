@@ -194,6 +194,11 @@ h4 {
   }
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 81d8c142d07ff4aeefbe1bc2df76985c5f87313c
 th {
   width: 1000px;
   font-family: 'Nunito Sans', sans-serif;
@@ -206,4 +211,11 @@ td {
 table {
   text-align: left;
   width: 400px;
+<<<<<<< HEAD
+=======
+
+}
+.startseite {
+  background-image: url('hintergrund.jpg');
+>>>>>>> 81d8c142d07ff4aeefbe1bc2df76985c5f87313c
 }
