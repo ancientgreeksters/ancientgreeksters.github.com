@@ -87,10 +87,14 @@
     .topnav a:not(:first-child), .dropdown .dropbtn {
       display: none;
     }
+    .language {
+      display: none;
+    }
     .topnav a.icon {
       float: right;
       display: block;
     }
+    
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -100,6 +104,12 @@
       position: absolute;
       right: 0;
       top: 0;
+    }
+    .topnav.responsive .language {
+      float: left;
+      width: 100%;
+      text-align: left;
+      display: block;
     }
     .topnav.responsive a {
       float: none;
@@ -113,6 +123,7 @@
       width: 100%;
       text-align: left;
     }
+    
   }
 
   h1 {
@@ -127,4 +138,10 @@
   }
   h3 {
     font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .language {
+    font-family: 'Nunito Sans', sans-serif;
+    float: right;
+
   }
