@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="\de\style.css">
+<link rel="stylesheet" href="/de/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
 
 <head>
@@ -16,24 +16,117 @@ function myFunction() {
 }
     </script>
     <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
+        <a href="#startseite" class="active">Startseite</a>
+        <!--Grammatik Dropdown -->
         <div class="dropdown">
-          <button class="dropbtn">Dropdown
+          <button class="dropbtn">Grammatik
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <a href="#">Übersicht</a>
+            <a href="#">Substantive</a>
+            <a href="#">Verben</a>
+            <a href="#">Satz</a>
           </div>
         </div>
+        <!--End of Grammatik Dropdown -->
+        <!--Kantharos Dropdown -->
+        <div class="dropdown">
+          <button class="dropbtn">Kantharos
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Textübersetzungen</a>
+            <a href="#">Vokabeln</a>
+            <a href="#">Übungen</a>
+          </div>
+        </div>
+      <!--End of Kantharos Dropdown -->
         <a href="#about">About</a>
+        <div class="language">
+          <a href="\de\index.html">de</a>
+          <a href="\en\index.html">en</a>
+        </div>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-      </div>
+        </div>
 </head>
+
 <body>
+<h2>Herzlich Willkommen zur Grammatik! Hier finden Sie alles, was Sie über die Altgriechische Grammatik wissen müssen!</h2>
+<h3><b>Disclaimer:</b> Diese Seite wird im Laufe der Zeit immer grösser werden, da die Creator dieser Seite die Altgriechsiche Sprache auch erst am erlernen sind!</h3>
+<p></p>
+
+<div class="w3-container">
+    <h2>Unsere 'bisherigen' Themen</h2>
+    
+    
+        <style>
+        ul {
+          list-style-type: none;
+          margin-left: 0px;
+          padding-left: 0px;
+          width: 100%;
+          background-color: #f1f1f1;
+          border-left: 0px;
+        }
+        
+        li a {
+          display: block;
+          color: #000;
+          padding: 8px 16px;
+          text-decoration: none;
+          width: 100%;
+          font-family: 'Nunito Sans', sans-serif;
+          font-weight: bold;
+
+        }
+        
+        /* Change the link color on hover */
+        li a:hover {
+          background-color: #555;
+          color: white;
+        }
+        </style>
+
+            
+
+
+        <ul>
+<!--§1 Griechische Schrift Dropdown -->
+      <div class="dropdown">
+        <button class="dropbtn">§1 Griechische Schrift
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Alphabet</a>
+          <a href="#">Aussprache</a>
+          <a href="#">Satzzeichen</a>
+          <a href="#">Spiritus, Iota subscrpitum, Akzente</a>
+          <a href="#">Enklise</a>
+          
+        </div>
+            <!--End of §1 Griechische Schrift Dropdown -->
+            <li><a href="#">§2 Sprachgeschichte</a></li>
+            <!--§3 Nomina Dropdown -->
+          <div class="dropdown">
+              <button class="dropbtn">§3 Nomina
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">3.1 Substantive und Adjektive</a>
+                <a href="#">3.2 Pronomina</a>
+                <a href="#">3.3 Vokativ</a>
+                <a href="#">3.4 Zahlwörter</a>
+                
+              </div>
+            <!--End of §3 Nomina Dropdown -->
+            <li><a href="#">§4 Verben</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+
+      
+        
+  
 
 
 </body>
