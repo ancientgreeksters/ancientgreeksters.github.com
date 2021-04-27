@@ -83,7 +83,7 @@
   }
   
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 801px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
       display: none;
     }
@@ -98,7 +98,7 @@
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 801px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -128,26 +128,21 @@
 
 h1 {
     font-family: 'Nunito Sans', sans-serif;
-    padding-left: 14px;
 
   }
 p {
     font-family: 'Nunito Sans', sans-serif;
-    padding-left: 14px;
   }
 
   h2 {
     font-family: 'Nunito Sans', sans-serif;
-    padding-left: 14px;
   }
 h3 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
-    padding-left: 14px;
   }
 h4 {
   font-family: 'Nunito Sans', sans-serif;
-  padding-left: 14px;
 }
 .language {
     font-family: 'Nunito Sans', sans-serif;
@@ -157,9 +152,8 @@ h4 {
 
 
 .grammatikListe {
-  background-color: white;
+  background-color: #ddd;
   padding-inline-start: 0px;
-  display: block;
 }
 .grammatikListe a {
   float: left;
@@ -171,32 +165,30 @@ h4 {
     font-size: 17px;
     font-family: 'Nunito Sans', sans-serif;
     clear: both;
-    
-    
-    
 }
 .grammatikHellgrau { 
   display: block;
-  background-color: white;
 }
 
 
 .grammatikDunkelgrau {
+    font-size: 17px;
+    border: red;
+    outline: red;
+    color: black;
+    padding: 14px 16px;
     background-color: #ddd;
     font-family: 'Nunito Sans', sans-serif;
+    text-align: left;
     width: 100%;
 }
 
 .zentrierung {
-  width: 70vw;
-  margin: 0 auto;
-  background-color: white;
-  
-  height: 100%;
-  
+  width: 65%;
+    margin: 0 auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 801px) {
   .zentrierung {
     width: 95%;
   }
@@ -205,27 +197,22 @@ h4 {
 th {
   width: 1000px;
   font-family: 'Nunito Sans', sans-serif;
-  padding-left: 14px;
 }
 
 td {
   font-family: 'Nunito Sans', sans-serif;
-  padding-left: 14px;
 } 
 
 table {
   text-align: left;
   width: 400px;
-  padding-left: 14px;
 
 }
-.hintergrund {
+.startseite {
   background-image: url('hintergrund.jpg');
 }
-
-body {
-  background-color: white;
-}
 .unterparagraph {
-  margin-left: 50px;
+  margin-left: 28px;
+
+
 }
