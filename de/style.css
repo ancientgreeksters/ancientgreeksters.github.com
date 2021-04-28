@@ -171,13 +171,13 @@ h4 {
 }
 .grammatikHellgrau { 
   text-indent: 14px;
-  background-color: rgb(241, 241, 241)
+  background-color: rgb(230, 230, 230)
 }
 
 
 .grammatikDunkelgrau {
   text-indent: 14px;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(201, 201, 201);
     
 }
 
@@ -216,5 +216,5 @@ table {
   
   
   text-indent: 50px;
-  background-color: rgb(241, 241, 241)
+  background-color: rgb(243, 243, 243)
 }
