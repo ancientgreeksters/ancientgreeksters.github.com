@@ -83,7 +83,7 @@
   }
   
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 801px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
       display: none;
     }
@@ -98,7 +98,7 @@
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 801px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -160,8 +160,8 @@ h4 {
   }
 
 
-  .grammatikListe {
-    background-color: rgb(255, 255, 255);
+.grammatikListe {
+  background-color: rgb(255, 255, 255);
     padding-inline-start: 0px;
     width: 100%
 }
@@ -179,26 +179,32 @@ h4 {
     clear: both;
 }
 .grammatikHellgrau { 
-  text-indent: 14px;
+  
   background-color: rgb(230, 230, 230)
 }
 
 
 .grammatikDunkelgrau {
-  text-indent: 14px;
-    background-color: rgb(201, 201, 201);
-    
+    font-size: 17px;
+    border: red;
+    outline: red;
+    color: black;
+    padding: 14px 16px;
+    background-color: #ddd;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: left;
+    width: 100%;
 }
 
 .zentrierung {
   width: 65%;
   height:100vh;
   height: 100%;
-  margin: 0 auto;
-  background-color: white;
+    margin: 0 auto;
+    background-color: white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 801px) {
   .zentrierung {
     width: 95%;
   }
@@ -221,8 +227,6 @@ table {
 .hintergrund {
   background-image: url('hintergrund.jpg');
 }
-
 .unterparagraph {
-
   margin-left: 28px;
-
+}
