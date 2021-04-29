@@ -83,7 +83,7 @@
   }
   
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-  @media screen and (max-width: 801px) {
+  @media screen and (max-width: 600px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
       display: none;
     }
@@ -98,7 +98,7 @@
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 801px) {
+  @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -128,21 +128,25 @@
 
 h1 {
     font-family: 'Nunito Sans', sans-serif;
-
+text-indent: 14px;
   }
 p {
     font-family: 'Nunito Sans', sans-serif;
+    text-indent: 14px;
   }
 
   h2 {
     font-family: 'Nunito Sans', sans-serif;
+    text-indent: 14px;
   }
 h3 {
     font-family: 'Nunito Sans', sans-serif;
-    font-weight: bold;
+    font-weight: normal;
+    text-indent: 14px;
   }
 h4 {
   font-family: 'Nunito Sans', sans-serif;
+  text-indent: 14px;
 }
 .language {
     font-family: 'Nunito Sans', sans-serif;
@@ -151,47 +155,45 @@ h4 {
   }
 
 
-.grammatikListe {
-  background-color: #ddd;
-  padding-inline-start: 0px;
+  .grammatikListe {
+    background-color: rgb(255, 255, 255);
+    padding-inline-start: 0px;
+    width: 100%
 }
 .grammatikListe a {
   float: left;
     display: block;
     color: #000000;
     text-align: left;
-    padding: 14px 16px;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
     text-decoration: none;
     font-size: 17px;
     font-family: 'Nunito Sans', sans-serif;
     clear: both;
 }
 .grammatikHellgrau { 
-  display: block;
+  text-indent: 14px;
+  background-color: rgb(230, 230, 230)
 }
 
 
 .grammatikDunkelgrau {
-    font-size: 17px;
-    border: red;
-    outline: red;
-    color: black;
-    padding: 14px 16px;
-    background-color: #ddd;
-    font-family: 'Nunito Sans', sans-serif;
-    text-align: left;
-    width: 100%;
+  text-indent: 14px;
+    background-color: rgb(201, 201, 201);
+    
 }
 
 .zentrierung {
   width: 65%;
   height:100vh;
   height: 100%;
-    margin: 0 auto;
-    background-color: white;
+  margin: 0 auto;
+  background-color: white;
 }
 
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 600px) {
   .zentrierung {
     width: 95%;
   }
@@ -216,10 +218,17 @@ table {
 }
 
 .unterparagraph {
+<<<<<<< HEAD
   margin-left: 28px;
 
 
 .page-footer {
   background-color: blue;
 
+=======
+  
+  
+  text-indent: 50px;
+  background-color: rgb(243, 243, 243)
+>>>>>>> c18d9acb010c72c2e2f2cf36ea35811f3d673472
 }
