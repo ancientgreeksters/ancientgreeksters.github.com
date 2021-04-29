@@ -128,25 +128,30 @@
 
 h1 {
     font-family: 'Nunito Sans', sans-serif;
-text-indent: 14px;
+    margin-left: 14px;
+    margin-right: 14px;
   }
 p {
     font-family: 'Nunito Sans', sans-serif;
-    text-indent: 14px;
+    margin-left: 14px;
+    margin-right: 14px;
   }
 
   h2 {
     font-family: 'Nunito Sans', sans-serif;
-    text-indent: 14px;
+    margin-left: 14px;
+    margin-right: 14px;
   }
 h3 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: normal;
-    text-indent: 14px;
+    margin-left: 14px;
+    margin-right: 14px;
   }
 h4 {
   font-family: 'Nunito Sans', sans-serif;
-  text-indent: 14px;
+  margin-left: 14px;
+  margin-right: 14px;
 }
 .language {
     font-family: 'Nunito Sans', sans-serif;
@@ -219,6 +224,7 @@ table {
 .unterparagraph {
   
   
-  text-indent: 50px;
-  background-color: rgb(243, 243, 243)
+  left: 50px;
+  background-color: rgb(243, 243, 243);
+  position: relative;
 }
