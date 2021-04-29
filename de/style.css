@@ -221,10 +221,8 @@ table {
 .hintergrund {
   background-image: url('hintergrund.jpg');
 }
+
 .unterparagraph {
-  
-  
-  left: 50px;
-  background-color: rgb(243, 243, 243);
-  position: relative;
-}
+
+  margin-left: 28px;
+
