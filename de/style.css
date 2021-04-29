@@ -128,21 +128,25 @@
 
 h1 {
     font-family: 'Nunito Sans', sans-serif;
-
+text-indent: 14px;
   }
 p {
     font-family: 'Nunito Sans', sans-serif;
+    text-indent: 14px;
   }
 
   h2 {
     font-family: 'Nunito Sans', sans-serif;
+    text-indent: 14px;
   }
 h3 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: normal;
+    text-indent: 14px;
   }
 h4 {
   font-family: 'Nunito Sans', sans-serif;
+  text-indent: 14px;
 }
 .language {
     font-family: 'Nunito Sans', sans-serif;
