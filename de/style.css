@@ -153,6 +153,17 @@ h4 {
   margin-left: 14px;
   margin-right: 14px;
 }
+
+h5 {
+  font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+
+
+
 .language {
     font-family: 'Nunito Sans', sans-serif;
     float: right;
@@ -228,7 +239,10 @@ th {
 tr {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: normal;
+  width: 400px;
 } 
+
+
 
 table {
   text-align: left;
