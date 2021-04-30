@@ -144,7 +144,7 @@ p {
   }
 h3 {
     font-family: 'Nunito Sans', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     margin-left: 14px;
     margin-right: 14px;
   }
@@ -213,10 +213,20 @@ h4 {
 th {
   width: 1000px;
   font-family: 'Nunito Sans', sans-serif;
+  font-weight: normal;
+
 }
 
-td {
+.titleTable {
+  font-family:  'Nunito Sans', sans-serif;
+  font-weight: bolder;
+
+
+}
+
+tr {
   font-family: 'Nunito Sans', sans-serif;
+  font-weight: normal;
 } 
 
 table {
