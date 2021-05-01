@@ -255,3 +255,6 @@ table {
 .unterparagraph {
   margin-left: 28px;
 }
+li {
+  font-family: 'Nunito Sans', sans-serif;
+}
