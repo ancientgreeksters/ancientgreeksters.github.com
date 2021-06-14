@@ -191,7 +191,7 @@ h5 {
 }
 .grammatikHellgrau { 
   
-  background-color: rgb(230, 230, 230)
+  background-color: rgb(240, 240, 240)
 }
 
 
@@ -201,7 +201,7 @@ h5 {
     outline: red;
     color: black;
     padding: 14px 16px;
-    background-color: #ddd;
+    background-color: rgb(216, 216, 216);
     font-family: 'Nunito Sans', sans-serif;
     text-align: left;
     width: 100%;
@@ -254,6 +254,7 @@ table {
 }
 .unterparagraph {
   margin-left: 28px;
+  
 }
 li {
   font-family: 'Nunito Sans', sans-serif;
